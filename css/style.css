@@ -1,0 +1,15 @@
+@import "header.css";
+@import "content.css";
+@import "footer.css";
+
+.container {
+    color: red;
+    display: grid;
+    width:100%;
+    border: 2px solid;
+    grid-template-rows: 100px 900px;
+    grid-template-areas:
+    "hd"
+    "main"
+    "ft";
+}

@@ -1,0 +1,20 @@
+.footer {
+    grid-area:ft;
+    color: green;
+    border: 2px solid;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media(min-width:900px) {
+    .footer {
+        grid-area:ft;
+        color: brown;
+        border: 5px solid;
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+}

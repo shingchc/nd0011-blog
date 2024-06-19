@@ -1,0 +1,6 @@
+.content {
+    grid-area:main;
+    color: orange;
+    border: 2px solid;
+    display: grid;
+}
