@@ -1,6 +1,35 @@
 .content {
     grid-area:main;
-    color: orange;
-    border: 2px solid;
     display: grid;
+    margin: 10px;
+    grid-template-rows: 75px;
+}
+
+.image-container {
+    width: 300px;
+    height: 200px;
+}
+
+#author-label {
+    color: black;
+    font-size: large;
+    padding: 5px;
+    vertical-align: top;
+}
+
+#author-data {
+    color: grey;
+    font-size: medium;
+    padding: 5px;
+    vertical-align: top;
+}
+
+#author-avatar {
+    width: 25px;
+    height: 25px;
+}
+
+#social-label {
+    color: maroon;
+    padding: 5px;
 }
