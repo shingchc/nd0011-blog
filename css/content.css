@@ -12,14 +12,13 @@
 
 #author-label {
     color: black;
-    font-size: large;
+    font-weight: bold;
     padding: 5px;
     vertical-align: top;
 }
 
 #author-data {
     color: grey;
-    font-size: medium;
     padding: 5px;
     vertical-align: top;
 }
@@ -32,4 +31,18 @@
 #social-label {
     color: maroon;
     padding: 5px;
+}
+
+#author-title-data {
+    color: grey;
+    padding: 5px;
+    vertical-align: top;
+    font-style: italic;
+}
+
+#author-name-data {
+    color: grey;
+    padding: 5px;
+    vertical-align: top;
+    text-decoration: underline;
 }
